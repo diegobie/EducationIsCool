@@ -1,0 +1,31 @@
+header{
+    background-color: #8ab654;
+    color: antiquewhite;
+    padding: 20px 0;
+    text-align: center;
+    position: static;
+    width: 100%;
+    margin-top: 0;
+}
+header h1{
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+header h2{
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: block !important; /* Desativa o Flexbox/Grid se estiverem ativos */
+    text-align: center;        /* Mantém o texto centralizado horizontalmente, se desejar */
+}
